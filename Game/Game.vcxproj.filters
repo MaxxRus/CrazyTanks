@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Map">
+      <UniqueIdentifier>{a1aaf9d2-1907-4da3-836e-c147d22eea3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Map">
+      <UniqueIdentifier>{5f5c1310-e560-4a5c-bb56-624841650fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Tank">
+      <UniqueIdentifier>{37d85dbf-d52c-4211-9a2f-eeb6e3dfc942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Tank">
+      <UniqueIdentifier>{927fccd3-1c8e-4a5b-a8ad-c267a2f178b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Global">
+      <UniqueIdentifier>{0898972e-383f-4c04-9e8b-bca18f296f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Game">
+      <UniqueIdentifier>{de3fffad-d656-438f-834b-bae546f423b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game">
+      <UniqueIdentifier>{00dd4d98-ca65-4941-90ff-8cdf5d7c0595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Bullet">
+      <UniqueIdentifier>{501542ff-d346-4d7a-8d30-eabf9ed1ca5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Bullet">
+      <UniqueIdentifier>{2d7904a9-e28f-4bb0-bfc7-f5c4846e0403}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Map.cpp">
+      <Filter>Исходные файлы\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Исходные файлы\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TankPlyer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TankEnemy.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Map.h">
+      <Filter>Файлы заголовков\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Файлы заголовков\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Файлы заголовков\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Файлы заголовков\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="TankPlyer.h">
+      <Filter>Файлы заголовков\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="TankEnemy.h">
+      <Filter>Файлы заголовков\Tank</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

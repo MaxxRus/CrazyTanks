@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\maxx\source\repos\game\game\main.cpp(8): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  game.cpp
+  Создание кода...
+c:\users\maxx\source\repos\game\game\game.cpp(104): warning C4715: game::getRouteToTankPlayer: значение возвращается не при всех путях выполнения
+c:\users\maxx\source\repos\game\game\game.cpp(159): warning C4715: game::inputKey: значение возвращается не при всех путях выполнения
+  Game.vcxproj -> C:\Users\Maxx\source\repos\Game\Debug\Game.exe
